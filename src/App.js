@@ -146,6 +146,7 @@ function App() {
         className="optionsSelect"
         name="year"
         isSearchable
+        defaultValue={selectedMake}
         options={makesOptions}
         onChange={handleMakeChange}
         placeholder="2 | Make"
@@ -156,6 +157,7 @@ function App() {
         className="optionsSelect"
         name="year"
         isSearchable
+        defaultValue={selectedModel}
         options={modelsOptions}
         onChange={handleModelChange}
         placeholder="3 | Model"
